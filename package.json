@@ -1,0 +1,38 @@
+{
+	"name": "riday",
+	"version": "1.0.0",
+	"description": "",
+	"main": "src/app.js",
+	"scripts": {
+		"test": "nodemon src/app.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ridays2001/Riday.git"
+	},
+	"author": "Riday <ridayshah2001@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ridays2001/Riday/issues"
+	},
+	"homepage": "https://github.com/ridays2001/Riday#readme",
+	"dependencies": {
+		"eta": "^1.2.2",
+		"express": "^4.17.1",
+		"node-fetch": "^2.6.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.8.1",
+		"eslint-config-tulip": "^1.1.3",
+		"nodemon": "^2.0.4"
+	},
+	"eslintConfig": {
+		"extends": "tulip",
+		"env": {
+			"amd": true,
+			"browser": true,
+			"jquery": true,
+			"node": true
+		}
+	}
+}
