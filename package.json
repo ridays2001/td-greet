@@ -1,7 +1,7 @@
 {
 	"name": "riday",
 	"version": "1.0.0",
-	"description": "",
+	"description": "My home page.",
 	"main": "src/app.js",
 	"scripts": {
 		"start": "node src/app.js",
