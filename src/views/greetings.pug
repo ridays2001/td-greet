@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title Happy Teachers' Day! - Riday
+
+		//- Bootstrap CSS
+		link(
+			rel="stylesheet",
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z",
+			crossorigin="anonymous"
+		)
+
+		//- Font Awesome Icons.
+		link(
+			rel="stylesheet",
+			href="https://use.fontawesome.com/releases/v5.14.0/css/all.css",
+			integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc",
+			crossorigin="anonymous"
+		)
+
+		//- My CSS
+		link(rel="stylesheet", href="/css/greet.css")
+
+		//- Ready script.
+		script(src="/js/ready.js")
+
+		//- Animation library.
+		script(src="https://js.cx/libs/animate.js")
+
+		link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+		link(rel="icon", href="/favicon.ico")
+		meta(name='theme-color', content='#ff69b4')
+
+		meta(property='og:image', content='/favicon.ico')
+		meta(property='og:site_name', content='Riday')
+		meta(property='og:locale', content='en-IN')
+		meta(property='article:author', content='Riday Shah')
+
+		meta(name='twitter:image', content='/favicon.ico')
+		meta(name='twitter:creator', content='@ridays2001')
+
+		link(rel='me', href='mailto:ridayshah2001@gmail.com')
+	body(onload="ready()")#body
+		#loader
+			svg(viewBox="-2000 -1000 4000 2000")
+				path#inf(d = "M354-354A500 500 0 1 1 354 354L-354-354A500 500 0 1 0-354 354z")
+				use(
+					xlink:href="#inf",
+					stroke-dasharray="1570 5143",
+					stroke-dashoffset="6713px"
+				)
+
+
+		.container#main
+			.col-11.col-md-6#box
+				h2.text-justify To,
+				h2.text-center #{name}
+				br
+				h1.text-center#wish
+				.text-center.my-4
+					div
+						span#quote
+						p.text-center#cite
+
+			.col-10.col-md-4.mx-auto#me
+				a(href="http://github.com/ridays2001/Riday")
+					i.fab.fa-github(aria-hidden="true")
+					span &emsp;Made by Riday.
+
+		//- My script to randomize background patterns.
+		script(src="/js/randomize.js")
