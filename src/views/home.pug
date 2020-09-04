@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+html(lang="en")
+	head
+		meta(charset="UTF-8")
+		meta(name="viewport", content="width=device-width, initial-scale=1.0")
+		title My Home
+
+		//- Bootstrap CSS
+		link(
+			rel="stylesheet",
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css",
+			integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z",
+			crossorigin="anonymous"
+		)
+
+		link(rel="stylesheet", href="/css/home.css")
+
+		link(rel="shortcut icon", href="/favicon.ico", type="image/x-icon")
+		link(rel="icon", href="/favicon.ico")
+		meta(name='theme-color', content='#ff69b4')
+
+		meta(property='og:image', content='/favicon.ico')
+		meta(property='og:site_name', content='Riday')
+		meta(property='og:locale', content='en-IN')
+		meta(property='article:author', content='Riday Shah')
+
+		meta(name='twitter:image', content='/favicon.ico')
+		meta(name='twitter:creator', content='@ridays2001')
+
+		link(rel='me', href='mailto:ridayshah2001@gmail.com')
+	body
+		.container.text-center.mt-5
+			.row.justify-content-center
+				.col-10.col-md-3
+					img.box(src="/me.jpg", alt="")
+
+			.row
+				.col-10.col-md-8.mx-auto#main.box
+					h1.text-center.mx-auto Hello, I'm Riday!
+					p.
+						I love JavaScript / Node.js. I'm currently working on
+						<a href='https://github.com/ridays2001/Julis'> Project Julis ↗</a>.
+
+					br
+					br
+					h3.text-center.
+						I am too lazy to build this part now.
+						Redirecting you in <span id="count">10</span> seconds.
+
+		script(src="/js/index.js")
