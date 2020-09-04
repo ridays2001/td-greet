@@ -1,7 +1,6 @@
 require('dotenv').config();
 
 const http = require('http');
-const logger = require('morgan');
 const fetch = require('node-fetch');
 
 const express = require('express');
@@ -14,7 +13,6 @@ app.set('port', process.env.PORT || 80);
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
-app.use(logger('dev'));
 app.use(express.static(`${__dirname}/public`));
 
 app.get('/', (_, res) => res.render('home'));
