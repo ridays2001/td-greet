@@ -52,10 +52,7 @@ app.post('/greet', async (req, res) => {
 
 	return res.redirect(`/greetings?name=${encodeURIComponent(name.join(' '))}`);
 });
-app.get('/greetings', (req, res) => {
-	console.log(req.query);
-	return res.render('greetings', { name: req.query.name });
-});
+app.get('/greetings', (req, res) => res.render('greetings', { name: req.query.name }));
 
 app.use((_, res) => res.redirect('/'));
 
