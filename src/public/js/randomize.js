@@ -257,7 +257,7 @@ const animateQuote = () => {
 	// eslint-disable-next-line no-undef
 	animate({
 		// This is an imported function, check the head part of the original pug file.
-		duration: 4000,
+		duration: 3500,
 		timing: fraction => Math.pow(fraction, 2),
 		draw: progress => {
 			const result = ((text.length - 0) * progress) + 0;
