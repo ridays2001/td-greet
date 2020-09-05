@@ -58,7 +58,7 @@ app.use((_, res) => res.redirect('/'));
 
 const wakeUp = () => {
 	// If date <= 7th Sept.
-	if (Date.now() <= 1599436800) return undefined;
+	/* if (Date.now() <= 1599436800) return undefined;
 	console.log('Pinging...');
 	setTimeout(async () => {
 		try {
@@ -68,7 +68,7 @@ const wakeUp = () => {
 		} finally {
 			wakeUp();
 		}
-	}, 1.5e6);
+	}, 1.5e6); */
 	return true;
 };
 

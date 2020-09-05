@@ -303,7 +303,7 @@ setTimeout(() => {
 			animateQuote();
 		}, 500);
 	}, 500);
-}, 1250);
+}, 2000);
 
 /**
  * @here - This part randomizes the fonts.
