@@ -257,8 +257,8 @@ const animateQuote = () => {
 	// eslint-disable-next-line no-undef
 	animate({
 		// This is an imported function, check the head part of the original pug file.
-		duration: 2500,
-		timing: fraction => Math.pow(fraction, 5),
+		duration: 4000,
+		timing: fraction => Math.pow(fraction, 2),
 		draw: progress => {
 			const result = ((text.length - 0) * progress) + 0;
 			if (Math.ceil(result) === text.length) citeBox.innerHTML = randomQuote.cite;
