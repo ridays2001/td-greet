@@ -1,6 +1,4 @@
 # My Home Page.
-This is a Node.js app for my personal website.
-The entire website is not yet ready and it's abandoned as of now.
-Only the Teachers' Day greeting part is active.
+A designer greeting cards generator for Teachers\' day for my teachers.
 
 Live version - [Here ↗](https://riday.herokuapp.com/greet).

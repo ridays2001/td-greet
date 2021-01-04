@@ -1,11 +1,11 @@
 {
-	"name": "riday",
+	"name": "td-greet",
 	"version": "1.0.0",
-	"description": "My home page.",
+	"description": "A designer greeting cards generator for Teachers' day for my teachers.",
 	"main": "src/app.js",
 	"scripts": {
-		"start": "node src/app.js",
-		"test": "nodemon src/app.js"
+		"start": "node .",
+		"test": "nodemon ."
 	},
 	"repository": {
 		"type": "git",
